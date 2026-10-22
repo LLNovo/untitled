@@ -3,8 +3,8 @@
 
         Filme meuFilme = new Filme();
 
-        meuFilme.nome = "Click";
-        meuFilme.anoDeLancamento = 2004;
+        meuFilme.nome = "Teste";
+        meuFilme.anoDeLancamento = 2020;
         meuFilme.duracaoEmSegundos = 140;
 
         meuFilme.exibirFichaTecnica();
