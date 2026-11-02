@@ -6,7 +6,7 @@ public class Filme {
     private int anoDeLancamento;
     private  int somaAvaliacao;
     private double totalDeAvaliacao;
-    private  int duracaoEmSegundos;
+    private  int duracaoEmMinutos;
     private double avaliacao;
 
     public int getSomaAvaliacao(){
@@ -27,14 +27,14 @@ public class Filme {
     }
 
     public void setDuracaoEmSegundos(int duracaoEmSegundos) {
-        this.duracaoEmSegundos = duracaoEmSegundos;
+        this.duracaoEmMinutos = duracaoEmSegundos;
     }
 
     public void exibirFichaTecnica() {
 
         System.out.println(nome);
         System.out.println("Ano de Lançamento:" + anoDeLancamento);
-        System.out.println("Duração em Segundos: " + duracaoEmSegundos);
+        System.out.println("Duração em Segundos: " + duracaoEmMinutos);
     }
 
     public void avalia (double nota){
